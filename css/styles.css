@@ -1,0 +1,36 @@
+/* Dine styles her */
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+}
+
+label,
+input,
+button,
+textarea {
+  display: block;
+}
+
+.form-felt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+input {
+  padding: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+
+#fNavn {
+  grid-row: 2 / 3;
+}
+
+#eNavnLabel {
+  grid-row: 3 / 4;
+}
+
+#eNavn {
+  grid-row: 4 / 5;
+}
